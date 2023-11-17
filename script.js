@@ -14,7 +14,7 @@ const conversationHistory = [];
         }
 
         function callOpenAI(userMessage) {
-            const apiKey = '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';
+            const apiKey = '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';
             const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
             conversationHistory.push({ role: 'user', content: userMessage });
